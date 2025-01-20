@@ -1,8 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%;
-    min-width: 320px;
+    background-color: hsl(212, 45%, 89%);
 }
 
 * {
@@ -12,9 +11,9 @@ html, body {
 }
 
 .container {
+    min-width: 320px;
     margin: 0;
     padding: 0;
-    background-color: hsl(212, 45%, 89%);
     height: 100vh;
     display: flex;
     justify-content: center;
